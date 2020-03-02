@@ -369,7 +369,51 @@ summary {
 </div>
 
 
-
+<div id="datasets-we-are-using" class="section level3">
+<h3>Datasets we are using:</h3>
+<p><a href="https://github.com/paulmj7/STOR320_Group0_Project/blob/master/initial-purpose-of-traffic-stop-by-drivers-sex-race-and-ethnicity.csv" class="uri">https://github.com/paulmj7/STOR320_Group0_Project/blob/master/initial-purpose-of-traffic-stop-by-drivers-sex-race-and-ethnicity.csv</a></p>
+<p>This dataset contains data on the initial purpose of traffic stops in Chapel Hill, broken down by sex, race, and ethnicity. Data entries include information on year, purpose, gender, race, and total occurrences of the specific purpose for that year.</p>
+<p><a href="https://github.com/paulmj7/STOR320_Group0_Project/blob/master/local-area-unemployment-statistics-laus.csv" class="uri">https://github.com/paulmj7/STOR320_Group0_Project/blob/master/local-area-unemployment-statistics-laus.csv</a></p>
+<p>THis dataset contains data from The Local Area Unemployment Statistics (LAUS) program, which produces monthly and annual employment, unemployment, and labor force data—including the unemployment rate—for States, counties, metropolitan areas, and many cities, by place of residence. This dataset has been filtered to only include data in North Carolina, by county. Data entries include information on area name (county), size of civilian labor force, number of employed, number of unemployed, unemployment rate, year, and month.</p>
+<p><a href="https://github.com/paulmj7/STOR320_Group0_Project/blob/master/police-arrests-made.csv" class="uri">https://github.com/paulmj7/STOR320_Group0_Project/blob/master/police-arrests-made.csv</a></p>
+<p>This dataset contains data on arrests made by the Chapel Hill Police Department since January 1, 2010 and updated quarterly. Data entries include information on incident id, primary charge, street address, city, date, time of arrest, race, gender, ethnicity, type of arrest, drugs, alcohol, or weapons present, and disposition.</p>
+<p><a href="https://github.com/paulmj7/STOR320_Group0_Project/blob/master/police-incident-reports-written.csv" class="uri">https://github.com/paulmj7/STOR320_Group0_Project/blob/master/police-incident-reports-written.csv</a></p>
+<p>This dataset contains incident reports filed with the Chapel Hill Police Department since January 1, 2010 and updated quarterly. The most serious incident is shown for each report filed. Data entries include information on incident id, offense, street, city, date of occurrence and date of report, hour of occurrence and hour of report, and victim age, race, and gender.</p>
+<p><a href="https://github.com/paulmj7/STOR320_Group0_Project/blob/master/q5-public-safety-police-services.csv" class="uri">https://github.com/paulmj7/STOR320_Group0_Project/blob/master/q5-public-safety-police-services.csv</a></p>
+<p>This dataset includes data from Question 5 of the 2015 Chapel Hill Community Survey. Using a scale of 1 to 5 where 5 means “Very Satisfied” and 1 means “Very Dissatisfied,” residents were asked to rate their satisfaction with each of the services listed below. Data entries include information on survey id, overall satisfaction, satisfaction of visibility, satisfaction of response time, satisfaction of enforcement of local traffic laws and satisfaction of public safety education program.</p>
+<p><a href="https://github.com/paulmj7/STOR320_Group0_Project/blob/master/weather-trends.csv" class="uri">https://github.com/paulmj7/STOR320_Group0_Project/blob/master/weather-trends.csv</a></p>
+<p>This dataset contains info about the weather in Chapel Hill. Data is obtained from a station located at the Chapel Hill Public Library. Data entries include information on date and time of entry, humidity, temperature, wind speed and gust, daily rain, monthly rain, yearly rain, and UV index.</p>
+<p>Note: These datasets were uploaded to my github for simplicity throughout the semester, but these datasets originated from <a href="https://www.chapelhillopendata.org/explore/" class="uri">https://www.chapelhillopendata.org/explore/</a></p>
+</div>
+<div id="q1-where-does-crime-happen-most-often-in-chapel-hill" class="section level3">
+<h3>Q1: Where does crime happen most often in Chapel Hill?</h3>
+<p>A: For this question, our goal is to cluster the locations (latitude and longitude variables) of the arrests made and incidents reported datasets. We plan to help identify common locations for crime by cross-referencing a residential location dataset, a greenways dataset, and a bus stop dataset for their location variables. We would like to know which places or landmarks in Chapel Hill where crimes are more likely to be committed.</p>
+</div>
+<div id="q2-are-there-any-correlations-between-crimes-and-race-age-and-gender" class="section level3">
+<h3>Q2: Are there any correlations between crimes and race, age, and gender?</h3>
+<p>A: For this question, our goal is to produce a variety of visual representations that show the effect of the race, age, and gender variables with the crime rate. From these visual representations, we want to paint a picture of the “Chapel Hill victim” (the most affected group), and provide statistics of each group’s chance of being affected by a crime.</p>
+</div>
+<div id="q3-how-does-the-unemployment-rate-in-chapel-hill-affect-the-crime-rate" class="section level3">
+<h3>Q3: How does the unemployment rate in Chapel Hill affect the crime rate?</h3>
+<p>A: For this question, our goal is to use linear regression to model the trend between unemployment and number of incidents of crime reported in Chapel Hill. We will also seek to use this model and perhaps some machine learning tools to predict the future values of the crime rate for the town. We think it would be interesting to find out if crime rate drops when unemployment drops and by how much.</p>
+</div>
+<div id="q4-how-does-time-of-yeartime-of-day-affect-crime-rates-in-chapel-hill" class="section level3">
+<h3>Q4: How does time of year/time of day affect crime rates in Chapel Hill?</h3>
+<p>A: For this question, our goal is to use linear regression to model the trend between time of year, time of day, and the weather, and their effect on crime rates in Chapel Hill. From this, we hope to identify correlations between the time of year and time of day for that specific time of year that crimes are more likely to occur. We will also find the differences between crime during school months, and crime during breaks and holidays (in other words, how much are students affected or apart of the crimes). We think it would be very interesting to have an understanding of the effect of students on the crime rate in the town.</p>
+</div>
+<div id="q5-how-does-chapel-hill-citizens-satisfaction-of-police-change-with-the-amount-of-crime" class="section level3">
+<h3>Q5: How does Chapel Hill citizens satisfaction of police change with the amount of crime?</h3>
+<p>A: For this question, our goal is to find a correlation between public satisfaction of public and type of crime throughout the years. We plan to cluster the location data to see where residents are most satisfied with the Chapel Hill Police Department and where they are not satisfied. We think it would be very interesting to discover where people are more satisfied with the police and see if that there is a noticeable difference in crime rates in that satisfactory area.</p>
+</div>
+<div id="related-works" class="section level3">
+<h3>Related works</h3>
+<p><a href="https://hackernoon.com/chicago-crime-mapping-magic-of-data-science-and-python-f2ecad74a597" class="uri">https://hackernoon.com/chicago-crime-mapping-magic-of-data-science-and-python-f2ecad74a597</a></p>
+<p>This project used crime data from Chicago to make their own models and charts of the amount of crimes, types of crimes, and location of crimes in Chicago. This could be a good reference to making the clustering of crime data in Chapel Hill for our project.</p>
+<p><a href="https://blog.patricktriest.com/police-data-python/" class="uri">https://blog.patricktriest.com/police-data-python/</a></p>
+<p>This project used crime data from Vermont to make their own models and charts of crime frequency and and correlation to other variables, as well as graphing the relationship between police stops and race and age. This could be a good reference to making our charts for finding correlations between age, race, and gender.</p>
+<p><a href="https://cjango.wordpress.com/portfolio/chicago-crime-data-analysis-python-project/" class="uri">https://cjango.wordpress.com/portfolio/chicago-crime-data-analysis-python-project/</a></p>
+<p>This project also used crime data from Chicago to make their own models and charts of frequency, type, and location of crime in Chicago. We enjoyed this project for its unique charts that show fun and interesting ways to represent things like location, race, address, etc.</p>
+</div>
 
 
 
